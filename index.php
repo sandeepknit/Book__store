@@ -4,27 +4,22 @@ include '../../fblogin.php';
 include '../../header.php';
  include('../../dbConnection.php');
 ?>
-
 <!doctype html>
 <html>
 <head>
 <title>Drishticone || News</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
- 
-
-
-<style>
+ <style>
 .title2
 {
 color:#1d9d74;
 font-size:20px;
 font-weight:200;
 }
-
 </style>
 <script>
 $(function() {
-    while( $('#fitin div').height() > $('#fitin').height() ) {
+     while( $('#fitin div').height() > $('#fitin').height() ) {
         $('#fitin div').css('font-size', (parseInt($('#fitin div').css('font-size')) - 1) + "px" );
     }
 });
@@ -535,7 +530,6 @@ $(function() {
 </center>
 <!--panel end-->
 <!--------------------------------------------------------------------------------------------------------------------------- -->
-
 </div>
 <!-- column end-->
 </div>
